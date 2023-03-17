@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> zk-perptual-contract ui</title>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	</head>
+	<body>
+		<div id="app" >
+			{{project}} UI V<span v-html="version" style="color: red;"></span>
+			<p v-if="seen">
+				<span v-bind:title="time"> click to check time</span>
+			</p>
+			<p v-for="transaction in transactions">
+				{{transaction.text}}
+			</p>
+			<input v-model = "input">
+			<button v-on:click="doTransaction">发起交易</button>
+			<comp v-for="transaction in transactions"
+				  v-bind:tran = "transaction"
+				  v-bind:key = "transaction.id">
+			</comp>
+		</div>
+		<script type="text/javascript">
+			var data =
+					{
+						project : "zk-perptual-contract",
+						version : "<span>5</span>",
+						seen : false,
+						input : "input",
+						transactions : [
+							{text : "register"},
+							{text : "deposit"},
+							{text : "withdraw"},
+						]
+					}
+			// Object.freeze(data)
+			Vue.component("comp", {
+				props : ['tran'],
+				template : "<li>Vue Component {{tran.text}}</li>"
+			})
+			var vm = new Vue(
+				{
+					el : "#app",
+					data : data,
+					methods : {
+						doTransaction : function() {
+							console.log("执行交易 ", $input)
+						}
+					},
+					beforeCreate : function(){
+						console.log("beforeCreate")
+					},
+					created : function(){
+						console.log("created")
+					},
+					beforeMount : function(){
+						console.log("beforeMount")
+					},
+					mounted : function(){
+						console.log("mounted")
+					},
+					beforeUpdate : function(){
+						console.log("beforeUpdate")
+					},
+					updated : function(){
+						console.log("updated")
+					}
+					// https://vuejs.org/api/options-lifecycle.html
+					// activated
+					// deactivated
+					// beforeDestory
+					// destroyed
+				}
+			)
+			setTimeout(function(){
+				vm.version = 6
+				vm.seen = true
+				vm.time = new Date().toLocaleString()
+			}, 3000)
+			vm.$watch("version", function(newValue, oldValue){
+				console.log("old ", oldValue, " new ", newValue)
+			})
+		</script>
+
+	</body>
+</html>

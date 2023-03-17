@@ -1,0 +1,862 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x97796FFe5D86b7a0457B0225Fd8a189a1A874739",
+    "txHash": "0x13b383f0fb72704b77cfe6fc006ca97c51c1a76c5bd749421637f497599cd1d1",
+    "deployTransaction": {
+      "hash": "0x13b383f0fb72704b77cfe6fc006ca97c51c1a76c5bd749421637f497599cd1d1",
+      "type": 2,
+      "accessList": [],
+      "blockHash": null,
+      "blockNumber": null,
+      "transactionIndex": null,
+      "confirmations": 0,
+      "from": "0xdbF5540DaADeD168A84D1340891B9bD9AC5107ec",
+      "gasPrice": {
+        "type": "BigNumber",
+        "hex": "0x9502f90a"
+      },
+      "maxPriorityFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x9502f900"
+      },
+      "maxFeePerGas": {
+        "type": "BigNumber",
+        "hex": "0x9502f90a"
+      },
+      "gasLimit": {
+        "type": "BigNumber",
+        "hex": "0x0762b4"
+      },
+      "to": null,
+      "value": {
+        "type": "BigNumber",
+        "hex": "0x00"
+      },
+      "nonce": 59,
+      "data": "0x608060405234801561001057600080fd5b50600080546001600160a01b031916339081178255604051909182917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908290a350610759806100616000396000f3fe60806040526004361061007b5760003560e01c80639623609d1161004e5780639623609d1461011157806399a88ec414610124578063f2fde38b14610144578063f3b7dead146101645761007b565b8063204e1c7a14610080578063715018a6146100bc5780637eff275e146100d35780638da5cb5b146100f3575b600080fd5b34801561008c57600080fd5b506100a061009b366004610515565b610184565b6040516001600160a01b03909116815260200160405180910390f35b3480156100c857600080fd5b506100d1610215565b005b3480156100df57600080fd5b506100d16100ee366004610554565b610292565b3480156100ff57600080fd5b506000546001600160a01b03166100a0565b6100d161011f36600461058c565b61031c565b34801561013057600080fd5b506100d161013f366004610554565b6103ad565b34801561015057600080fd5b506100d161015f366004610515565b610405565b34801561017057600080fd5b506100a061017f366004610515565b6104ef565b6000806000836001600160a01b03166040516101aa90635c60da1b60e01b815260040190565b600060405180830381855afa9150503d80600081146101e5576040519150601f19603f3d011682016040523d82523d6000602084013e6101ea565b606091505b5091509150816101f957600080fd5b8080602001905181019061020d9190610538565b949350505050565b6000546001600160a01b031633146102485760405162461bcd60e51b815260040161023f906106c0565b60405180910390fd5b600080546040516001600160a01b03909116907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908390a3600080546001600160a01b0319169055565b6000546001600160a01b031633146102bc5760405162461bcd60e51b815260040161023f906106c0565b6040516308f2839760e41b81526001600160a01b038281166004830152831690638f283970906024015b600060405180830381600087803b15801561030057600080fd5b505af1158015610314573d6000803e3d6000fd5b505050505050565b6000546001600160a01b031633146103465760405162461bcd60e51b815260040161023f906106c0565b60405163278f794360e11b81526001600160a01b03841690634f1ef286903490610376908690869060040161065d565b6000604051808303818588803b15801561038f57600080fd5b505af11580156103a3573d6000803e3d6000fd5b5050505050505050565b6000546001600160a01b031633146103d75760405162461bcd60e51b815260040161023f906106c0565b604051631b2ce7f360e11b81526001600160a01b038281166004830152831690633659cfe6906024016102e6565b6000546001600160a01b0316331461042f5760405162461bcd60e51b815260040161023f906106c0565b6001600160a01b0381166104945760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b606482015260840161023f565b600080546040516001600160a01b03808516939216917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600080546001600160a01b0319166001600160a01b0392909216919091179055565b6000806000836001600160a01b03166040516101aa906303e1469160e61b815260040190565b600060208284031215610526578081fd5b81356105318161070b565b9392505050565b600060208284031215610549578081fd5b81516105318161070b565b60008060408385031215610566578081fd5b82356105718161070b565b915060208301356105818161070b565b809150509250929050565b6000806000606084860312156105a0578081fd5b83356105ab8161070b565b925060208401356105bb8161070b565b9150604084013567ffffffffffffffff808211156105d7578283fd5b818601915086601f8301126105ea578283fd5b8135818111156105fc576105fc6106f5565b604051601f8201601f19908116603f01168101908382118183101715610624576106246106f5565b8160405282815289602084870101111561063c578586fd5b82602086016020830137856020848301015280955050505050509250925092565b600060018060a01b038416825260206040818401528351806040850152825b818110156106985785810183015185820160600152820161067c565b818111156106a95783606083870101525b50601f01601f191692909201606001949350505050565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604082015260600190565b634e487b7160e01b600052604160045260246000fd5b6001600160a01b038116811461072057600080fd5b5056fea2646970667358221220d849f96f3086b9f82cdcf665adb8c697ace05638da1c7c16ab2d26293717af6764736f6c63430008020033",
+      "r": "0x939e547b2a0c81e8f1e02914ead73c2b9d50c812009caa8a4efe275c05efdbdd",
+      "s": "0x12d4be190debcdb7a98bdb1de1203ddb0156d1b8d54a8d34d5dfa96b0b4f40b4",
+      "v": 0,
+      "creates": "0x97796FFe5D86b7a0457B0225Fd8a189a1A874739",
+      "chainId": 4
+    }
+  },
+  "proxies": [
+    {
+      "address": "0xE389C449B38a481BCAa81564B3d872550353E810",
+      "txHash": "0xc7cc44e67a374ceaa39bab7052d9087652a9f1bf0bdd02f256f43a00dfd84e1b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x718355D06cb12595c1DAe1F82CD923542cc50779",
+      "txHash": "0x91e44779399b1c7e25d858ba0fb68100f06b757729a24eb1d2e13cb527ef2365",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "7aa616186c724cf0878df655116ceb94d2374712f8141bd0129bb5ef48919959": {
+      "address": "0x0D5f0C07D524F7e36A7b182a9A09545aDeC9105F",
+      "txHash": "0x01a6a19714e5bb6919cf7c08e3ade23506e1831f91dbeb693526c7e30d0c83e8",
+      "layout": {
+        "storage": [],
+        "types": {}
+      }
+    },
+    "1b291423c5165ffe4c3312b14b00b9249da3389c75b79d70941e9684a2468d98": {
+      "address": "0xe6E0466b18C8bfF604c047E1263dCb26A27915Dd",
+      "txHash": "0x8b46900dc3d9723d5bddc3c1486bc574e8717536e87e705372694476ba2c8b00",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Governance",
+            "label": "networkGovernor",
+            "type": "t_address",
+            "src": "cache/solpp-generated-contracts/Governance.sol:13"
+          },
+          {
+            "contract": "Governance",
+            "label": "validators",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "cache/solpp-generated-contracts/Governance.sol:14"
+          },
+          {
+            "contract": "Storage",
+            "label": "accountRoot",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:34"
+          },
+          {
+            "contract": "Storage",
+            "label": "orderStateHash",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:35"
+          },
+          {
+            "contract": "Storage",
+            "label": "dacs",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:37"
+          },
+          {
+            "contract": "Storage",
+            "label": "dacNum",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:38"
+          },
+          {
+            "contract": "Storage",
+            "label": "DacRegisterTime",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:40"
+          },
+          {
+            "contract": "Storage",
+            "label": "pendingDacMember",
+            "type": "t_address",
+            "src": "cache/solpp-generated-contracts/Storage.sol:41"
+          },
+          {
+            "contract": "Storage",
+            "label": "DacRegisterActive",
+            "type": "t_bool",
+            "src": "cache/solpp-generated-contracts/Storage.sol:42"
+          },
+          {
+            "contract": "Storage",
+            "label": "globalConfigHash",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:44"
+          },
+          {
+            "contract": "Storage",
+            "label": "userAdmin",
+            "type": "t_address",
+            "src": "cache/solpp-generated-contracts/Storage.sol:51"
+          },
+          {
+            "contract": "Storage",
+            "label": "ethKeys",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:52"
+          },
+          {
+            "contract": "Storage",
+            "label": "verifier",
+            "type": "t_contract(I_Verifier)9798",
+            "src": "cache/solpp-generated-contracts/Storage.sol:58"
+          },
+          {
+            "contract": "Storage",
+            "label": "collateralToken",
+            "type": "t_contract(IERC20Upgradeable)77",
+            "src": "cache/solpp-generated-contracts/Storage.sol:60"
+          },
+          {
+            "contract": "Storage",
+            "label": "innerDecimal",
+            "type": "t_uint8",
+            "src": "cache/solpp-generated-contracts/Storage.sol:61"
+          },
+          {
+            "contract": "Storage",
+            "label": "pendingDeposits",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:62"
+          },
+          {
+            "contract": "Storage",
+            "label": "pendingWithdrawals",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:63"
+          },
+          {
+            "contract": "Storage",
+            "label": "cancellationRequests",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:66"
+          },
+          {
+            "contract": "Storage",
+            "label": "forcedActionRequests",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:69"
+          },
+          {
+            "contract": "Storage",
+            "label": "stateFrozen",
+            "type": "t_bool",
+            "src": "cache/solpp-generated-contracts/Storage.sol:71"
+          },
+          {
+            "contract": "Storage",
+            "label": "escapeVerifier",
+            "type": "t_contract(I_Verifier)9798",
+            "src": "cache/solpp-generated-contracts/Storage.sol:72"
+          },
+          {
+            "contract": "Storage",
+            "label": "escapesUsed",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:73"
+          },
+          {
+            "contract": "Storage",
+            "label": "operators",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:99"
+          },
+          {
+            "contract": "Storage",
+            "label": "proofRegister",
+            "type": "t_mapping(t_bytes32,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:102"
+          },
+          {
+            "contract": "Storage",
+            "label": "MAX_ASSETS_COUNT",
+            "type": "t_uint16",
+            "src": "cache/solpp-generated-contracts/Storage.sol:104"
+          },
+          {
+            "contract": "Storage",
+            "label": "newGlobalConfigHash",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:106"
+          },
+          {
+            "contract": "Storage",
+            "label": "newGlobalConfigValidBlockNum",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:107"
+          },
+          {
+            "contract": "Storage",
+            "label": "actionsTimeLock",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:117"
+          },
+          {
+            "contract": "Storage",
+            "label": "systemTokenDecimal",
+            "type": "t_uint8",
+            "src": "cache/solpp-generated-contracts/Storage.sol:119"
+          },
+          {
+            "contract": "Storage",
+            "label": "MAX_NUMBER_ORACLES",
+            "type": "t_uint16",
+            "src": "cache/solpp-generated-contracts/Storage.sol:121"
+          },
+          {
+            "contract": "Storage",
+            "label": "TIMELOCK_GLOBAL_CONFIG_CHANGE",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:122"
+          },
+          {
+            "contract": "Storage",
+            "label": "DEPOSIT_CANCEL_TIMELOCK",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:123"
+          },
+          {
+            "contract": "Storage",
+            "label": "FORCED_ACTION_EXPIRE_TIME",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:124"
+          },
+          {
+            "contract": "Storage",
+            "label": "MIN_DAC_MEMBER",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:126"
+          },
+          {
+            "contract": "Storage",
+            "label": "TIMELOCK_DAC_REG",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:127"
+          }
+        ],
+        "types": {
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_contract(I_Verifier)9798": {
+            "label": "contract I_Verifier"
+          },
+          "t_contract(IERC20Upgradeable)77": {
+            "label": "contract IERC20Upgradeable"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_mapping(t_bytes32,t_bool)": {
+            "label": "mapping(bytes32 => bool)"
+          },
+          "t_uint16": {
+            "label": "uint16"
+          }
+        }
+      }
+    },
+    "4f3f4d93e91c717fc7f69d75e6a2676b1b34c1b0ab1116170d7c55081c9e487f": {
+      "address": "0x40a9Ca3C277B89fa205c2FF580E588dD93518dd7",
+      "txHash": "0xbf4f79562b7906088ef9006ffe9773ee85706b05216292d1f37fc4b1d8770a3d",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Governance",
+            "label": "networkGovernor",
+            "type": "t_address",
+            "src": "cache/solpp-generated-contracts/Governance.sol:13"
+          },
+          {
+            "contract": "Governance",
+            "label": "validators",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "cache/solpp-generated-contracts/Governance.sol:14"
+          },
+          {
+            "contract": "Storage",
+            "label": "accountRoot",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:34"
+          },
+          {
+            "contract": "Storage",
+            "label": "orderStateHash",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:35"
+          },
+          {
+            "contract": "Storage",
+            "label": "dacs",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:37"
+          },
+          {
+            "contract": "Storage",
+            "label": "dacNum",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:38"
+          },
+          {
+            "contract": "Storage",
+            "label": "DacRegisterTime",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:40"
+          },
+          {
+            "contract": "Storage",
+            "label": "pendingDacMember",
+            "type": "t_address",
+            "src": "cache/solpp-generated-contracts/Storage.sol:41"
+          },
+          {
+            "contract": "Storage",
+            "label": "DacRegisterActive",
+            "type": "t_bool",
+            "src": "cache/solpp-generated-contracts/Storage.sol:42"
+          },
+          {
+            "contract": "Storage",
+            "label": "globalConfigHash",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:44"
+          },
+          {
+            "contract": "Storage",
+            "label": "userAdmin",
+            "type": "t_address",
+            "src": "cache/solpp-generated-contracts/Storage.sol:51"
+          },
+          {
+            "contract": "Storage",
+            "label": "ethKeys",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:52"
+          },
+          {
+            "contract": "Storage",
+            "label": "verifier",
+            "type": "t_contract(I_Verifier)9818",
+            "src": "cache/solpp-generated-contracts/Storage.sol:58"
+          },
+          {
+            "contract": "Storage",
+            "label": "collateralToken",
+            "type": "t_contract(IERC20Upgradeable)77",
+            "src": "cache/solpp-generated-contracts/Storage.sol:60"
+          },
+          {
+            "contract": "Storage",
+            "label": "innerDecimal",
+            "type": "t_uint8",
+            "src": "cache/solpp-generated-contracts/Storage.sol:61"
+          },
+          {
+            "contract": "Storage",
+            "label": "pendingDeposits",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:62"
+          },
+          {
+            "contract": "Storage",
+            "label": "pendingWithdrawals",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:63"
+          },
+          {
+            "contract": "Storage",
+            "label": "cancellationRequests",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:66"
+          },
+          {
+            "contract": "Storage",
+            "label": "forcedActionRequests",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:69"
+          },
+          {
+            "contract": "Storage",
+            "label": "stateFrozen",
+            "type": "t_bool",
+            "src": "cache/solpp-generated-contracts/Storage.sol:71"
+          },
+          {
+            "contract": "Storage",
+            "label": "escapeVerifier",
+            "type": "t_contract(I_Verifier)9818",
+            "src": "cache/solpp-generated-contracts/Storage.sol:72"
+          },
+          {
+            "contract": "Storage",
+            "label": "escapesUsed",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:73"
+          },
+          {
+            "contract": "Storage",
+            "label": "operators",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:99"
+          },
+          {
+            "contract": "Storage",
+            "label": "proofRegister",
+            "type": "t_mapping(t_bytes32,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:102"
+          },
+          {
+            "contract": "Storage",
+            "label": "MAX_ASSETS_COUNT",
+            "type": "t_uint16",
+            "src": "cache/solpp-generated-contracts/Storage.sol:104"
+          },
+          {
+            "contract": "Storage",
+            "label": "newGlobalConfigHash",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:106"
+          },
+          {
+            "contract": "Storage",
+            "label": "newGlobalConfigValidBlockNum",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:107"
+          },
+          {
+            "contract": "Storage",
+            "label": "actionsTimeLock",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:117"
+          },
+          {
+            "contract": "Storage",
+            "label": "systemTokenDecimal",
+            "type": "t_uint8",
+            "src": "cache/solpp-generated-contracts/Storage.sol:119"
+          },
+          {
+            "contract": "Storage",
+            "label": "MAX_NUMBER_ORACLES",
+            "type": "t_uint16",
+            "src": "cache/solpp-generated-contracts/Storage.sol:121"
+          },
+          {
+            "contract": "Storage",
+            "label": "TIMELOCK_GLOBAL_CONFIG_CHANGE",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:122"
+          },
+          {
+            "contract": "Storage",
+            "label": "DEPOSIT_CANCEL_TIMELOCK",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:123"
+          },
+          {
+            "contract": "Storage",
+            "label": "FORCED_ACTION_EXPIRE_TIME",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:124"
+          },
+          {
+            "contract": "Storage",
+            "label": "MIN_DAC_MEMBER",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:126"
+          },
+          {
+            "contract": "Storage",
+            "label": "TIMELOCK_DAC_REG",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:127"
+          }
+        ],
+        "types": {
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_contract(I_Verifier)9818": {
+            "label": "contract I_Verifier"
+          },
+          "t_contract(IERC20Upgradeable)77": {
+            "label": "contract IERC20Upgradeable"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_mapping(t_bytes32,t_bool)": {
+            "label": "mapping(bytes32 => bool)"
+          },
+          "t_uint16": {
+            "label": "uint16"
+          }
+        }
+      }
+    },
+    "5b8d8c998cf0a98b67f11fb4aedae1431ca83a3579206a7dd6ad6c9aca7b0ad1": {
+      "address": "0x942Ecd4D3b5E94c9DC0d84eF14eEb61E6154386D",
+      "txHash": "0xb4876d33d489f8b7bbb381f5356cd8c497336223290a51523b6b2339462dd152",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Governance",
+            "label": "networkGovernor",
+            "type": "t_address",
+            "src": "cache/solpp-generated-contracts/Governance.sol:13"
+          },
+          {
+            "contract": "Governance",
+            "label": "validators",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "cache/solpp-generated-contracts/Governance.sol:14"
+          },
+          {
+            "contract": "Storage",
+            "label": "accountRoot",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:34"
+          },
+          {
+            "contract": "Storage",
+            "label": "orderStateHash",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:35"
+          },
+          {
+            "contract": "Storage",
+            "label": "dacs",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:37"
+          },
+          {
+            "contract": "Storage",
+            "label": "dacNum",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:38"
+          },
+          {
+            "contract": "Storage",
+            "label": "DacRegisterTime",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:40"
+          },
+          {
+            "contract": "Storage",
+            "label": "pendingDacMember",
+            "type": "t_address",
+            "src": "cache/solpp-generated-contracts/Storage.sol:41"
+          },
+          {
+            "contract": "Storage",
+            "label": "DacRegisterActive",
+            "type": "t_bool",
+            "src": "cache/solpp-generated-contracts/Storage.sol:42"
+          },
+          {
+            "contract": "Storage",
+            "label": "globalConfigHash",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:44"
+          },
+          {
+            "contract": "Storage",
+            "label": "userAdmin",
+            "type": "t_address",
+            "src": "cache/solpp-generated-contracts/Storage.sol:51"
+          },
+          {
+            "contract": "Storage",
+            "label": "ethKeys",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:52"
+          },
+          {
+            "contract": "Storage",
+            "label": "verifier",
+            "type": "t_contract(I_Verifier)9810",
+            "src": "cache/solpp-generated-contracts/Storage.sol:58"
+          },
+          {
+            "contract": "Storage",
+            "label": "collateralToken",
+            "type": "t_contract(IERC20Upgradeable)77",
+            "src": "cache/solpp-generated-contracts/Storage.sol:60"
+          },
+          {
+            "contract": "Storage",
+            "label": "innerDecimal",
+            "type": "t_uint8",
+            "src": "cache/solpp-generated-contracts/Storage.sol:61"
+          },
+          {
+            "contract": "Storage",
+            "label": "pendingDeposits",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:62"
+          },
+          {
+            "contract": "Storage",
+            "label": "pendingWithdrawals",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:63"
+          },
+          {
+            "contract": "Storage",
+            "label": "cancellationRequests",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:66"
+          },
+          {
+            "contract": "Storage",
+            "label": "forcedActionRequests",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:69"
+          },
+          {
+            "contract": "Storage",
+            "label": "stateFrozen",
+            "type": "t_bool",
+            "src": "cache/solpp-generated-contracts/Storage.sol:71"
+          },
+          {
+            "contract": "Storage",
+            "label": "escapeVerifier",
+            "type": "t_contract(I_Verifier)9810",
+            "src": "cache/solpp-generated-contracts/Storage.sol:72"
+          },
+          {
+            "contract": "Storage",
+            "label": "escapesUsed",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:73"
+          },
+          {
+            "contract": "Storage",
+            "label": "operators",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:99"
+          },
+          {
+            "contract": "Storage",
+            "label": "proofRegister",
+            "type": "t_mapping(t_bytes32,t_bool)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:102"
+          },
+          {
+            "contract": "Storage",
+            "label": "MAX_ASSETS_COUNT",
+            "type": "t_uint16",
+            "src": "cache/solpp-generated-contracts/Storage.sol:104"
+          },
+          {
+            "contract": "Storage",
+            "label": "newGlobalConfigHash",
+            "type": "t_bytes32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:106"
+          },
+          {
+            "contract": "Storage",
+            "label": "newGlobalConfigValidBlockNum",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:107"
+          },
+          {
+            "contract": "Storage",
+            "label": "actionsTimeLock",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "src": "cache/solpp-generated-contracts/Storage.sol:117"
+          },
+          {
+            "contract": "Storage",
+            "label": "systemTokenDecimal",
+            "type": "t_uint8",
+            "src": "cache/solpp-generated-contracts/Storage.sol:119"
+          },
+          {
+            "contract": "Storage",
+            "label": "MAX_NUMBER_ORACLES",
+            "type": "t_uint16",
+            "src": "cache/solpp-generated-contracts/Storage.sol:121"
+          },
+          {
+            "contract": "Storage",
+            "label": "TIMELOCK_GLOBAL_CONFIG_CHANGE",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:122"
+          },
+          {
+            "contract": "Storage",
+            "label": "DEPOSIT_CANCEL_TIMELOCK",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:123"
+          },
+          {
+            "contract": "Storage",
+            "label": "FORCED_ACTION_EXPIRE_TIME",
+            "type": "t_uint256",
+            "src": "cache/solpp-generated-contracts/Storage.sol:124"
+          },
+          {
+            "contract": "Storage",
+            "label": "MIN_DAC_MEMBER",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:126"
+          },
+          {
+            "contract": "Storage",
+            "label": "TIMELOCK_DAC_REG",
+            "type": "t_uint32",
+            "src": "cache/solpp-generated-contracts/Storage.sol:127"
+          }
+        ],
+        "types": {
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_contract(I_Verifier)9810": {
+            "label": "contract I_Verifier"
+          },
+          "t_contract(IERC20Upgradeable)77": {
+            "label": "contract IERC20Upgradeable"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_mapping(t_bytes32,t_bool)": {
+            "label": "mapping(bytes32 => bool)"
+          },
+          "t_uint16": {
+            "label": "uint16"
+          }
+        }
+      }
+    }
+  }
+}
